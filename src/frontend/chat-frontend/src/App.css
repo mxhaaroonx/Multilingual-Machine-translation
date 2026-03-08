@@ -1,0 +1,49 @@
+:root {
+  --bg-color: #f4f4f9;
+  --surface-color: #ffffff;
+  --surface-hover: #f9fafb;
+  --text-main: #1e1e24;
+  --text-muted: #71717a;
+  --border-color: #e4e4e7;
+  --primary: #7c3aed;
+  --primary-hover: #6d28d9;
+  --message-sent-bg: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  --message-received-bg: #ffffff;
+  --danger: #ef4444;
+  --success: #10b981;
+}
+
+.dark {
+  --bg-color: #0d0d12;
+  --surface-color: #18181b;
+  --surface-hover: #27272a;
+  --text-main: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --border-color: #27272a;
+  --primary: #9333ea;
+  --primary-hover: #a855f7;
+  --message-sent-bg: linear-gradient(135deg, #9333ea 0%, #7e22ce 100%);
+  --message-received-bg: #27272a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-main);
+  height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+}
