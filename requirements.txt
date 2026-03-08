@@ -1,0 +1,10 @@
+transformers==4.43.0
+torch==2.3.0
+IndicTransToolkit
+sentencepiece
+sacremoses
+mistralai
+fastapi
+uvicorn
+numpy
+scipy
